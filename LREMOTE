@@ -40,3 +40,5 @@
 'github.com/vim-pandoc/vim-pandoc-syntax/u' 'https://github.com/vim-pandoc/vim-pandoc-syntax.git'
 'github.com/chneukirchen/outils/m' 'github.com/chneukirchen/outils.git'
 'github.com/chneukirchen/outils/u' 'https://github.com/chneukirchen/outils.git'
+'github.com/tpope/vim-commentary/m' 'github.com/tpope/vim-commentary.git'
+'github.com/tpope/vim-commentary/u' 'https://github.com/tpope/vim-commentary.git'
