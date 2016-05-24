@@ -27,7 +27,8 @@ src_check ()
 # Install the stow package
 src_install ()
 {
-        return 0
+        mkdir -p -- "${DESTDIR}/.vim"
+        cp -Rfp -- "autoload" "${DESTDIR}/.vim/autoload"
 }
 
 # Called before stow package is stowed
