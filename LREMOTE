@@ -34,3 +34,5 @@
 'github.com/xdanaux/moderncv/u' 'https://github.com/xdanaux/moderncv.git'
 'github.com/majn/telegram-purple/m' 'github.com/majn/telegram-purple.git'
 'github.com/majn/telegram-purple/u' 'https://github.com/majn/telegram-purple.git'
+'github.com/vim-pandoc/vim-pandoc/m' 'github.com/vim-pandoc/vim-pandoc.git'
+'github.com/vim-pandoc/vim-pandoc/u' 'https://github.com/vim-pandoc/vim-pandoc.git'
