@@ -27,7 +27,8 @@ src_check ()
 # Install the stow package
 src_install ()
 {
-        return 0
+        git ls-files \
+        | xargs -I '{}' install -D '{}' "${DESTDIR}/.emacs.d/site-lisp/use-package/{}";
 }
 
 # Called before stow package is stowed
