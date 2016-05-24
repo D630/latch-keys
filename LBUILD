@@ -27,7 +27,8 @@ src_check ()
 # Install the stow package
 src_install ()
 {
-        return 0
+        mkdir -p "${DESTDIR}/${XDG_DATA_HOME#$HOME}/mutt/colors"
+        cp -fp -- mutt-colors-solarized-*-*.muttrc "${DESTDIR}/${XDG_DATA_HOME#$HOME}/mutt/colors"
 }
 
 # Called before stow package is stowed
