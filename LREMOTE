@@ -42,3 +42,5 @@
 'github.com/chneukirchen/outils/u' 'https://github.com/chneukirchen/outils.git'
 'github.com/tpope/vim-commentary/m' 'github.com/tpope/vim-commentary.git'
 'github.com/tpope/vim-commentary/u' 'https://github.com/tpope/vim-commentary.git'
+'github.com/tpope/vim-surround/m' 'github.com/tpope/vim-surround.git'
+'github.com/tpope/vim-surround/u' 'https://github.com/tpope/vim-surround.git'
