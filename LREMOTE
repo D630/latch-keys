@@ -8,3 +8,5 @@
 'github.com/junegunn/fzf-bin/u' 'https://github.com/junegunn/fzf-bin.git'
 'github.com/junegunn/fzf.vim/m' 'github.com/junegunn/fzf.vim.git'
 'github.com/junegunn/fzf.vim/u' 'https://github.com/junegunn/fzf.vim.git'
+'github.com/junegunn/fzf.wiki/m' 'github.com/junegunn/fzf.wiki.git'
+'github.com/junegunn/fzf.wiki/u' 'https://github.com/junegunn/fzf.wiki.git'
