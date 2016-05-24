@@ -10,3 +10,5 @@
 'github.com/junegunn/fzf.vim/u' 'https://github.com/junegunn/fzf.vim.git'
 'github.com/junegunn/fzf.wiki/m' 'github.com/junegunn/fzf.wiki.git'
 'github.com/junegunn/fzf.wiki/u' 'https://github.com/junegunn/fzf.wiki.git'
+'github.com/altercation/mutt-colors-solarized/m' 'github.com/altercation/mutt-colors-solarized.git'
+'github.com/altercation/mutt-colors-solarized/u' 'https://github.com/altercation/mutt-colors-solarized.git'
