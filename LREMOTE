@@ -44,3 +44,5 @@
 'github.com/tpope/vim-commentary/u' 'https://github.com/tpope/vim-commentary.git'
 'github.com/tpope/vim-surround/m' 'github.com/tpope/vim-surround.git'
 'github.com/tpope/vim-surround/u' 'https://github.com/tpope/vim-surround.git'
+'github.com/tpope/vim-pathogen/m' 'github.com/tpope/vim-pathogen.git'
+'github.com/tpope/vim-pathogen/u' 'https://github.com/tpope/vim-pathogen.git'
