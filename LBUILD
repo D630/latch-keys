@@ -27,7 +27,9 @@ src_check ()
 # Install the stow package
 src_install ()
 {
-        return 0
+        mkdir -p -- "${DESTDIR}/${XDG_DATA_HOME#$HOME}/man/man1" "${DESTDIR}/${XDG_DATA_HOME#$HOME}/bash"
+        cp -fp -- "z.1" "${DESDTDIR}/${XDG_DATA_HOME#$HOME}/man/man1/z.1"
+        cp -fp -- "z.sh" "${DESTDIR}/${XDG_DATA_HOME#$HOME}/bash/z.sh"
 }
 
 # Called before stow package is stowed
