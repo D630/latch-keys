@@ -26,3 +26,5 @@
 'github.com/nelstrom/vim-markdown-folding/u' 'https://github.com/nelstrom/vim-markdown-folding.git'
 'github.com/nonpop/xkblayout-state/m' 'github.com/nonpop/xkblayout-state.git'
 'github.com/nonpop/xkblayout-state/u' 'https://github.com/nonpop/xkblayout-state.git'
+'github.com/rupa/z/m' 'github.com/rupa/z.git'
+'github.com/rupa/z/u' 'https://github.com/rupa/z.git'
