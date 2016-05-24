@@ -46,3 +46,5 @@
 'github.com/tpope/vim-surround/u' 'https://github.com/tpope/vim-surround.git'
 'github.com/tpope/vim-pathogen/m' 'github.com/tpope/vim-pathogen.git'
 'github.com/tpope/vim-pathogen/u' 'https://github.com/tpope/vim-pathogen.git'
+'github.com/Raimondi/delimitMate/m' 'github.com/Raimondi/delimitMate.git'
+'github.com/Raimondi/delimitMate/u' 'https://github.com/Raimondi/delimitMate.git'
