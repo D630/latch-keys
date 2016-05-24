@@ -28,7 +28,7 @@ src_check ()
 src_install ()
 {
         mkdir -p -- "${DESTDIR}/${XDG_DATA_HOME#$HOME}/man/man1" "${DESTDIR}/${XDG_DATA_HOME#$HOME}/bash"
-        cp -fp -- "z.1" "${DESDTDIR}/${XDG_DATA_HOME#$HOME}/man/man1/z.1"
+        cp -fp -- "z.1" "${DESTDIR}/${XDG_DATA_HOME#$HOME}/man/man1/z.1"
         cp -fp -- "z.sh" "${DESTDIR}/${XDG_DATA_HOME#$HOME}/bash/z.sh"
 }
 
