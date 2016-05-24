@@ -27,7 +27,8 @@ src_check ()
 # Install the stow package
 src_install ()
 {
-        return 0
+        git ls-files \
+        | xargs -I '{}' install -D '{}' "${DESTDIR}/.vim/bundle/fzf.vim/{}";
 }
 
 # Called before stow package is stowed
