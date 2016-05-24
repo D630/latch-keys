@@ -15,7 +15,8 @@ src_prepare ()
 # Configure and build the stow package
 src_build ()
 {
-        return 0
+        ./configure
+        make
 }
 
 # Run pre-install test scripts
@@ -27,7 +28,7 @@ src_check ()
 # Install the stow package
 src_install ()
 {
-        return 0
+        make DESTDIR="$DESTDIR" install
 }
 
 # Called before stow package is stowed
