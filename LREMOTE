@@ -36,3 +36,5 @@
 'github.com/majn/telegram-purple/u' 'https://github.com/majn/telegram-purple.git'
 'github.com/vim-pandoc/vim-pandoc/m' 'github.com/vim-pandoc/vim-pandoc.git'
 'github.com/vim-pandoc/vim-pandoc/u' 'https://github.com/vim-pandoc/vim-pandoc.git'
+'github.com/vim-pandoc/vim-pandoc-syntax/m' 'github.com/vim-pandoc/vim-pandoc-syntax.git'
+'github.com/vim-pandoc/vim-pandoc-syntax/u' 'https://github.com/vim-pandoc/vim-pandoc-syntax.git'
