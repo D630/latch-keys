@@ -18,3 +18,5 @@
 'github.com/jrunning/source-highlight-solarized/u' 'https://github.com/jrunning/source-highlight-solarized.git'
 'github.com/baskerville/sxhkd/m' 'github.com/baskerville/sxhkd.git'
 'github.com/baskerville/sxhkd/u' 'https://github.com/baskerville/sxhkd.git'
+'github.com/altercation/vim-colors-solarized/m' 'github.com/altercation/vim-colors-solarized.git'
+'github.com/altercation/vim-colors-solarized/u' 'https://github.com/altercation/vim-colors-solarized.git'
