@@ -27,7 +27,8 @@ src_check ()
 # Install the stow package
 src_install ()
 {
-        return 0
+        mkdir -p -- "${DESTDIR}/${XDG_DATA_HOME#$HOME}/source-highlight/solarized"
+        cp -pf -- esc-solarized.* "${DESTDIR}/${XDG_DATA_HOME#$HOME}/source-highlight/solarized"
 }
 
 # Called before stow package is stowed
