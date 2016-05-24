@@ -6,3 +6,5 @@
 'github.com/seebi/dircolors-solarized/u' 'https://github.com/seebi/dircolors-solarized.git'
 'github.com/junegunn/fzf-bin/m' 'github.com/junegunn/fzf-bin.git'
 'github.com/junegunn/fzf-bin/u' 'https://github.com/junegunn/fzf-bin.git'
+'github.com/junegunn/fzf.vim/m' 'github.com/junegunn/fzf.vim.git'
+'github.com/junegunn/fzf.vim/u' 'https://github.com/junegunn/fzf.vim.git'
