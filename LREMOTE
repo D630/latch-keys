@@ -20,3 +20,5 @@
 'github.com/baskerville/sxhkd/u' 'https://github.com/baskerville/sxhkd.git'
 'github.com/altercation/vim-colors-solarized/m' 'github.com/altercation/vim-colors-solarized.git'
 'github.com/altercation/vim-colors-solarized/u' 'https://github.com/altercation/vim-colors-solarized.git'
+'github.com/tpope/vim-markdown/m' 'github.com/tpope/vim-markdown.git'
+'github.com/tpope/vim-markdown/u' 'https://github.com/tpope/vim-markdown.git'
