@@ -24,3 +24,5 @@
 'github.com/tpope/vim-markdown/u' 'https://github.com/tpope/vim-markdown.git'
 'github.com/nelstrom/vim-markdown-folding/m' 'github.com/nelstrom/vim-markdown-folding.git'
 'github.com/nelstrom/vim-markdown-folding/u' 'https://github.com/nelstrom/vim-markdown-folding.git'
+'github.com/nonpop/xkblayout-state/m' 'github.com/nonpop/xkblayout-state.git'
+'github.com/nonpop/xkblayout-state/u' 'https://github.com/nonpop/xkblayout-state.git'
