@@ -58,3 +58,5 @@
 'github.com/junegunn/fzf/u' 'https://github.com/junegunn/fzf.git'
 'git.suckless.org/st/m' 'git.suckless.org/st.git'
 'git.suckless.org/st/u' 'http://git.suckless.org/st'
+'git.suckless/tabbed/m' 'git.suckless/tabbed.git'
+'git.suckless/tabbed/u' 'http://git.suckless.org/tabbed'
