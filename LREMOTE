@@ -56,3 +56,5 @@
 'anonscm.debian.org/git/users/kolter/msmtp/u' 'https://anonscm.debian.org/git/users/kolter/msmtp.git'
 'github.com/junegunn/fzf/m' 'github.com/junegunn/fzf.git'
 'github.com/junegunn/fzf/u' 'https://github.com/junegunn/fzf.git'
+'git.suckless.org/st/m' 'git.suckless.org/st.git'
+'git.suckless.org/st/u' 'http://git.suckless.org/st'
