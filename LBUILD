@@ -27,7 +27,9 @@ src_check ()
 # Install the stow package
 src_install ()
 {
-        return 0
+        mkdir -p -- "${DESTDIR}/${XDG_DATA_HOME#$HOME}/texmf/tex/latex/moderncv"
+        cp -pf -- *.cls "${DESTDIR}/${XDG_DATA_HOME#$HOME}/texmf/tex/latex/moderncv"
+        cp -pf -- *.sty "${DESTDIR}/${XDG_DATA_HOME#$HOME}/texmf/tex/latex/moderncv"
 }
 
 # Called before stow package is stowed
@@ -40,7 +42,7 @@ stow_prae ()
 # Called after stow package is stowed
 stow_post ()
 {
-        return 0
+        mktexlsr "${XDG_DATA_HOME}/texmf"
 }
 
 # Called before stow package is unstowed
