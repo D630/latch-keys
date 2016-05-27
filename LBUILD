@@ -9,10 +9,9 @@ src_env ()
 # Prepare stow package and do any necessary patching or fixes
 src_prepare ()
 {
-        mv -f -- ./config.h ./config.h.orig
-        mv -f -- ./config.mk ./config.mk.orig
-        ln -fs -- "${myKeyRing}/config.h" ./config.h
-        ln -fs -- "${myKeyRing}/config.mk" ./config.mk
+        rm -f -- "./config.mk"
+        cp -f -- "${myKeyRing}/config.h" "./config.h"
+        cp -f -- "${myKeyRing}/config.mk" "./config.mk"
 }
 
 # Configure and build the stow package
@@ -31,8 +30,6 @@ src_check ()
 src_install ()
 {
         make PREFIX="$DESTDIR" install
-        mv -f -- ./config.h.orig ./config.h
-        mv -f -- ./config.mk.orig ./config.mk
 }
 
 # Called before stow package is stowed
