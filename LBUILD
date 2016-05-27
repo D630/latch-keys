@@ -9,8 +9,7 @@ src_env ()
 # Prepare stow package and do any necessary patching or fixes
 src_prepare ()
 {
-        mv -f -- ./config.mk ./config.mk.orig
-        ln -s -- "${myKeyRing}/config.mk" config.mk
+        cp -f -- "${myKeyRing}/config.mk" "./config.mk"
 }
 
 # Configure and build the stow package
@@ -20,7 +19,7 @@ src_build ()
 
         for _c in dark light
         do
-                cp -f -- "${myKeyRing}/solarized-${_c}-config.h" config.h
+                cp -f -- "${myKeyRing}/solarized-${_c}-config.h" "./config.h"
                 make
                 mv -f -- st "st-${_c}"
         done
@@ -37,7 +36,6 @@ src_install ()
 {
         make PREFIX="$DESTDIR" install
         mv -f -- st-* "${DESTDIR}/bin"
-        mv -f -- ./config.mk.orig ./config.mk
 }
 
 # Called before stow package is stowed
