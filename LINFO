@@ -1,61 +1,31 @@
-'github.com/baskerville/bspwm/m' 'github.com/baskerville/bspwm.git'
-'github.com/baskerville/bspwm/u' 'https://github.com/baskerville/bspwm.git'
-'github.com/jeroenjanssens/data-science-at-the-command-line/m' 'github.com/jeroenjanssens/data-science-at-the-command-line.git'
-'github.com/jeroenjanssens/data-science-at-the-command-line/u' 'https://github.com/jeroenjanssens/data-science-at-the-command-line.git'
-'github.com/seebi/dircolors-solarized/m' 'github.com/seebi/dircolors-solarized.git'
-'github.com/seebi/dircolors-solarized/u' 'https://github.com/seebi/dircolors-solarized.git'
-'github.com/junegunn/fzf-bin/m' 'github.com/junegunn/fzf-bin.git'
-'github.com/junegunn/fzf-bin/u' 'https://github.com/junegunn/fzf-bin.git'
-'github.com/junegunn/fzf.vim/m' 'github.com/junegunn/fzf.vim.git'
-'github.com/junegunn/fzf.vim/u' 'https://github.com/junegunn/fzf.vim.git'
-'github.com/junegunn/fzf.wiki/m' 'github.com/junegunn/fzf.wiki.git'
-'github.com/junegunn/fzf.wiki/u' 'https://github.com/junegunn/fzf.wiki.git'
-'github.com/altercation/mutt-colors-solarized/m' 'github.com/altercation/mutt-colors-solarized.git'
-'github.com/altercation/mutt-colors-solarized/u' 'https://github.com/altercation/mutt-colors-solarized.git'
-'github.com/domo141/nottoomuch/m' 'github.com/domo141/nottoomuch.git'
-'github.com/domo141/nottoomuch/u' 'https://github.com/domo141/nottoomuch.git'
-'github.com/jrunning/source-highlight-solarized/m' 'github.com/jrunning/source-highlight-solarized.git'
-'github.com/jrunning/source-highlight-solarized/u' 'https://github.com/jrunning/source-highlight-solarized.git'
-'github.com/baskerville/sxhkd/m' 'github.com/baskerville/sxhkd.git'
-'github.com/baskerville/sxhkd/u' 'https://github.com/baskerville/sxhkd.git'
-'github.com/altercation/vim-colors-solarized/m' 'github.com/altercation/vim-colors-solarized.git'
-'github.com/altercation/vim-colors-solarized/u' 'https://github.com/altercation/vim-colors-solarized.git'
-'github.com/tpope/vim-markdown/m' 'github.com/tpope/vim-markdown.git'
-'github.com/tpope/vim-markdown/u' 'https://github.com/tpope/vim-markdown.git'
-'github.com/nelstrom/vim-markdown-folding/m' 'github.com/nelstrom/vim-markdown-folding.git'
-'github.com/nelstrom/vim-markdown-folding/u' 'https://github.com/nelstrom/vim-markdown-folding.git'
-'github.com/nonpop/xkblayout-state/m' 'github.com/nonpop/xkblayout-state.git'
-'github.com/nonpop/xkblayout-state/u' 'https://github.com/nonpop/xkblayout-state.git'
-'github.com/rupa/z/m' 'github.com/rupa/z.git'
-'github.com/rupa/z/u' 'https://github.com/rupa/z.git'
-'github.com/jwiegley/use-package/m' 'github.com/jwiegley/use-package.git'
-'github.com/jwiegley/use-package/u' 'https://github.com/jwiegley/use-package.git'
-'github.com/xdanaux/moderncv/m' 'github.com/xdanaux/moderncv.git'
-'github.com/xdanaux/moderncv/u' 'https://github.com/xdanaux/moderncv.git'
-'github.com/majn/telegram-purple/m' 'github.com/majn/telegram-purple.git'
-'github.com/majn/telegram-purple/u' 'https://github.com/majn/telegram-purple.git'
-'github.com/vim-pandoc/vim-pandoc/m' 'github.com/vim-pandoc/vim-pandoc.git'
-'github.com/vim-pandoc/vim-pandoc/u' 'https://github.com/vim-pandoc/vim-pandoc.git'
-'github.com/vim-pandoc/vim-pandoc-syntax/m' 'github.com/vim-pandoc/vim-pandoc-syntax.git'
-'github.com/vim-pandoc/vim-pandoc-syntax/u' 'https://github.com/vim-pandoc/vim-pandoc-syntax.git'
-'github.com/chneukirchen/outils/m' 'github.com/chneukirchen/outils.git'
-'github.com/chneukirchen/outils/u' 'https://github.com/chneukirchen/outils.git'
-'github.com/tpope/vim-commentary/m' 'github.com/tpope/vim-commentary.git'
-'github.com/tpope/vim-commentary/u' 'https://github.com/tpope/vim-commentary.git'
-'github.com/tpope/vim-surround/m' 'github.com/tpope/vim-surround.git'
-'github.com/tpope/vim-surround/u' 'https://github.com/tpope/vim-surround.git'
-'github.com/tpope/vim-pathogen/m' 'github.com/tpope/vim-pathogen.git'
-'github.com/tpope/vim-pathogen/u' 'https://github.com/tpope/vim-pathogen.git'
-'github.com/Raimondi/delimitMate/m' 'github.com/Raimondi/delimitMate.git'
-'github.com/Raimondi/delimitMate/u' 'https://github.com/Raimondi/delimitMate.git'
-'github.com/horst3180/arc-theme/m' 'github.com/horst3180/arc-theme.git'
-'github.com/horst3180/arc-theme/u' 'https://github.com/horst3180/arc-theme.git'
-'github.com/vain/bin-pub/m' 'github.com/vain/bin-pub.git'
-'github.com/vain/bin-pub/u' 'https://github.com/vain/bin-pub.git'
 anonscm.debian.org/git/users/kolter/msmtp|https://anonscm.debian.org/git/users/kolter/msmtp.git|local
-'github.com/junegunn/fzf/m' 'github.com/junegunn/fzf.git'
-'github.com/junegunn/fzf/u' 'https://github.com/junegunn/fzf.git'
-'git.suckless.org/st/m' 'git.suckless.org/st.git'
-'git.suckless.org/st/u' 'http://git.suckless.org/st'
-'git.suckless.org/tabbed/m' 'git.suckless.org/tabbed.git'
-'git.suckless.org/tabbed/u' 'http://git.suckless.org/tabbed'
+git.suckless.org/st|http://git.suckless.org/st|global
+git.suckless.org/tabbed|http://git.suckless.org/tabbed|global
+github.com/Raimondi/delimitMate|https://github.com/Raimondi/delimitMate.git|local
+github.com/altercation/mutt-colors-solarized|https://github.com/altercation/mutt-colors-solarized.git|local
+github.com/altercation/vim-colors-solarized|https://github.com/altercation/vim-colors-solarized.git|local
+github.com/baskerville/bspwm|https://github.com/baskerville/bspwm.git|global
+github.com/baskerville/sxhkd|https://github.com/baskerville/sxhkd.git|global
+github.com/chneukirchen/outils|https://github.com/chneukirchen/outils.git|global
+github.com/domo141/nottoomuch|https://github.com/domo141/nottoomuch.git|global
+github.com/horst3180/arc-theme|https://github.com/horst3180/arc-theme.git|local
+github.com/jeroenjanssens/data-science-at-the-command-line|https://github.com/jeroenjanssens/data-science-at-the-command-line.git|global
+github.com/jrunning/source-highlight-solarized|https://github.com/jrunning/source-highlight-solarized.git|local
+github.com/junegunn/fzf|https://github.com/junegunn/fzf.git|global
+github.com/junegunn/fzf-bin|https://github.com/junegunn/fzf-bin.git|<>
+github.com/junegunn/fzf.vim|https://github.com/junegunn/fzf.vim.git|local
+github.com/junegunn/fzf.wiki|https://github.com/junegunn/fzf.wiki.git|<>
+github.com/jwiegley/use-package|https://github.com/jwiegley/use-package.git|local
+github.com/majn/telegram-purple|https://github.com/majn/telegram-purple.git|system
+github.com/nelstrom/vim-markdown-folding|https://github.com/nelstrom/vim-markdown-folding.git|local
+github.com/nonpop/xkblayout-state|https://github.com/nonpop/xkblayout-state.git|global
+github.com/rupa/z|https://github.com/rupa/z.git|local
+github.com/seebi/dircolors-solarized|https://github.com/seebi/dircolors-solarized.git|local
+github.com/tpope/vim-commentary|https://github.com/tpope/vim-commentary.git|local
+github.com/tpope/vim-markdown|https://github.com/tpope/vim-markdown.git|local
+github.com/tpope/vim-pathogen|https://github.com/tpope/vim-pathogen.git|local
+github.com/tpope/vim-surround|https://github.com/tpope/vim-surround.git|local
+github.com/vain/bin-pub|https://github.com/vain/bin-pub.git|global
+github.com/vim-pandoc/vim-pandoc|https://github.com/vim-pandoc/vim-pandoc.git|local
+github.com/vim-pandoc/vim-pandoc-syntax|https://github.com/vim-pandoc/vim-pandoc-syntax.git|local
+github.com/xdanaux/moderncv|https://github.com/xdanaux/moderncv.git|local
