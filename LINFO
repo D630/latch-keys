@@ -52,8 +52,7 @@
 'github.com/horst3180/arc-theme/u' 'https://github.com/horst3180/arc-theme.git'
 'github.com/vain/bin-pub/m' 'github.com/vain/bin-pub.git'
 'github.com/vain/bin-pub/u' 'https://github.com/vain/bin-pub.git'
-'anonscm.debian.org/git/users/kolter/msmtp/m' 'anonscm.debian.org/git/users/kolter/msmtp.git'
-'anonscm.debian.org/git/users/kolter/msmtp/u' 'https://anonscm.debian.org/git/users/kolter/msmtp.git'
+anonscm.debian.org/git/users/kolter/msmtp|https://anonscm.debian.org/git/users/kolter/msmtp.git|local
 'github.com/junegunn/fzf/m' 'github.com/junegunn/fzf.git'
 'github.com/junegunn/fzf/u' 'https://github.com/junegunn/fzf.git'
 'git.suckless.org/st/m' 'git.suckless.org/st.git'
