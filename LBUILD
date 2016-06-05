@@ -10,8 +10,8 @@ src_env ()
 src_prepare ()
 {
         rm -f -- "./config.mk"
-        cp -f -- "${myKey}/config.h" "./config.h"
-        cp -f -- "${myKey}/config.mk" "./config.mk"
+        cp -f -- "${KEYDIR}/config.h" "./config.h"
+        cp -f -- "${KEYDIR}/config.mk" "./config.mk"
 }
 
 # Configure and build the stow package
