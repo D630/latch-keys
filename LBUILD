@@ -9,7 +9,7 @@ src_env ()
 # Prepare stow package and do any necessary patching or fixes
 src_prepare ()
 {
-        cp -f -- "${myKey}/config.mk" "./config.mk"
+        cp -f -- "${KEYDIR}/config.mk" "./config.mk"
 }
 
 # Configure and build the stow package
@@ -19,7 +19,7 @@ src_build ()
 
         for _c in dark light
         do
-                cp -f -- "${myKey}/solarized-${_c}-config.h" "./config.h"
+                cp -f -- "${KEYDIR}/solarized-${_c}-config.h" "./config.h"
                 make
                 mv -f -- st "st-${_c}"
         done
