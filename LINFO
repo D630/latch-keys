@@ -14,7 +14,7 @@ github.com/jrunning/source-highlight-solarized|https://github.com/jrunning/sourc
 github.com/junegunn/fzf|https://github.com/junegunn/fzf.git|global
 github.com/junegunn/fzf-bin|https://github.com/junegunn/fzf-bin.git|null
 github.com/junegunn/fzf.vim|https://github.com/junegunn/fzf.vim.git|local
-github.com/junegunn/fzf.wiki|https://github.com/junegunn/fzf.wiki.git|<>
+github.com/junegunn/fzf.wiki|https://github.com/junegunn/fzf.wiki.git|null
 github.com/jwiegley/use-package|https://github.com/jwiegley/use-package.git|local
 github.com/majn/telegram-purple|https://github.com/majn/telegram-purple.git|system
 github.com/nelstrom/vim-markdown-folding|https://github.com/nelstrom/vim-markdown-folding.git|local
