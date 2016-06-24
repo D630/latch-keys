@@ -6,7 +6,7 @@ github.com/altercation/mutt-colors-solarized|https://github.com/altercation/mutt
 github.com/altercation/vim-colors-solarized|https://github.com/altercation/vim-colors-solarized.git|local
 github.com/baskerville/bspwm|https://github.com/baskerville/bspwm.git|global
 github.com/baskerville/sxhkd|https://github.com/baskerville/sxhkd.git|global
-github.com/chneukirchen/nq|https://github.com/chneukirchen/nq.git|null
+github.com/chneukirchen/nq|https://github.com/chneukirchen/nq.git|global
 github.com/chneukirchen/outils|https://github.com/chneukirchen/outils.git|global
 github.com/domo141/nottoomuch|https://github.com/domo141/nottoomuch.git|global
 github.com/horst3180/arc-theme|https://github.com/horst3180/arc-theme.git|local
