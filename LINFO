@@ -6,15 +6,16 @@ github.com/altercation/mutt-colors-solarized|https://github.com/altercation/mutt
 github.com/altercation/vim-colors-solarized|https://github.com/altercation/vim-colors-solarized.git|local
 github.com/baskerville/bspwm|https://github.com/baskerville/bspwm.git|global
 github.com/baskerville/sxhkd|https://github.com/baskerville/sxhkd.git|global
+github.com/chneukirchen/nq|https://github.com/chneukirchen/nq.git|null
 github.com/chneukirchen/outils|https://github.com/chneukirchen/outils.git|global
 github.com/domo141/nottoomuch|https://github.com/domo141/nottoomuch.git|global
 github.com/horst3180/arc-theme|https://github.com/horst3180/arc-theme.git|local
 github.com/jeroenjanssens/data-science-at-the-command-line|https://github.com/jeroenjanssens/data-science-at-the-command-line.git|global
 github.com/jrunning/source-highlight-solarized|https://github.com/jrunning/source-highlight-solarized.git|local
-github.com/junegunn/fzf|https://github.com/junegunn/fzf.git|global
 github.com/junegunn/fzf-bin|https://github.com/junegunn/fzf-bin.git|null
 github.com/junegunn/fzf.vim|https://github.com/junegunn/fzf.vim.git|local
 github.com/junegunn/fzf.wiki|https://github.com/junegunn/fzf.wiki.git|null
+github.com/junegunn/fzf|https://github.com/junegunn/fzf.git|global
 github.com/jwiegley/use-package|https://github.com/jwiegley/use-package.git|local
 github.com/majn/telegram-purple|https://github.com/majn/telegram-purple.git|system
 github.com/nelstrom/vim-markdown-folding|https://github.com/nelstrom/vim-markdown-folding.git|local
@@ -26,6 +27,6 @@ github.com/tpope/vim-markdown|https://github.com/tpope/vim-markdown.git|local
 github.com/tpope/vim-pathogen|https://github.com/tpope/vim-pathogen.git|local
 github.com/tpope/vim-surround|https://github.com/tpope/vim-surround.git|local
 github.com/vain/bin-pub|https://github.com/vain/bin-pub.git|global
-github.com/vim-pandoc/vim-pandoc|https://github.com/vim-pandoc/vim-pandoc.git|local
 github.com/vim-pandoc/vim-pandoc-syntax|https://github.com/vim-pandoc/vim-pandoc-syntax.git|local
+github.com/vim-pandoc/vim-pandoc|https://github.com/vim-pandoc/vim-pandoc.git|local
 github.com/xdanaux/moderncv|https://github.com/xdanaux/moderncv.git|local
