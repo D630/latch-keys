@@ -1,7 +1,7 @@
 anonscm.debian.org/git/users/kolter/msmtp|https://anonscm.debian.org/git/users/kolter/msmtp.git|local
 git.suckless.org/st|http://git.suckless.org/st|global
 git.suckless.org/tabbed|http://git.suckless.org/tabbed|global
-github.com/D630/dacti|https://github.com/D630/dacti.git|null
+github.com/D630/dacti|https://github.com/D630/dacti.git|global
 github.com/Raimondi/delimitMate|https://github.com/Raimondi/delimitMate.git|local
 github.com/altercation/mutt-colors-solarized|https://github.com/altercation/mutt-colors-solarized.git|local
 github.com/altercation/vim-colors-solarized|https://github.com/altercation/vim-colors-solarized.git|local
