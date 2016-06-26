@@ -27,7 +27,7 @@ src_check ()
 # Install the stow package
 src_install ()
 {
-        return 0
+        command install -D -m 755 bin/dacti "${DESTDIR}/bin/dacti"
 }
 
 # Called before stow package is stowed
