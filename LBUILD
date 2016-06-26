@@ -27,7 +27,7 @@ src_check ()
 # Install the stow package
 src_install ()
 {
-        return 0
+        command install -D -m 755 bma.bash "${DESTDIR}/${XDG_DATA_HOME#$HOME/}/bash/bma.bash"
 }
 
 # Called before stow package is stowed
