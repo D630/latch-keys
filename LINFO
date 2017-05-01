@@ -16,7 +16,6 @@ github.com/chneukirchen/outils|https://github.com/chneukirchen/outils.git|global
 github.com/horst3180/arc-theme|https://github.com/horst3180/arc-theme.git|local
 github.com/jeroenjanssens/data-science-at-the-command-line|https://github.com/jeroenjanssens/data-science-at-the-command-line.git|global
 github.com/jrunning/source-highlight-solarized|https://github.com/jrunning/source-highlight-solarized.git|local
-github.com/junegunn/fzf-bin|https://github.com/junegunn/fzf-bin.git|null
 github.com/junegunn/fzf.vim|https://github.com/junegunn/fzf.vim.git|local
 github.com/junegunn/fzf.wiki|https://github.com/junegunn/fzf.wiki.git|null
 github.com/junegunn/fzf|https://github.com/junegunn/fzf.git|global
