@@ -11,6 +11,7 @@ github.com/altercation/mutt-colors-solarized|https://github.com/altercation/mutt
 github.com/altercation/vim-colors-solarized|https://github.com/altercation/vim-colors-solarized.git|local
 github.com/chneukirchen/nq|https://github.com/chneukirchen/nq.git|global
 github.com/chneukirchen/outils|https://github.com/chneukirchen/outils.git|global
+github.com/dequis/purple-facebook|https://github.com/dequis/purple-facebook.git|system
 github.com/horst3180/arc-theme|https://github.com/horst3180/arc-theme.git|local
 github.com/jeroenjanssens/data-science-at-the-command-line|https://github.com/jeroenjanssens/data-science-at-the-command-line.git|global
 github.com/jrunning/source-highlight-solarized|https://github.com/jrunning/source-highlight-solarized.git|local
