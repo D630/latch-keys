@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-char font[] = "Noto Mono:pixelsize=15:antialias=true:autohint=false:hinting=true:hintstyle=hintfull:lcdfilter=lcddefault:rgba=rgb";
+char font[] = "-xos4-terminus-medium-r-normal-*-16-*-*-*-*-*-iso10646-*";
 int borderpx = 4;
 
 /*
