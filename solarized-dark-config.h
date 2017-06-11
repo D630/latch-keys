@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-char font[] = "-xos4-terminus-medium-r-normal-*-16-*-*-*-*-*-iso10646-*";
+char font[] = "Terminus:size=9";
 int borderpx = 4;
 
 /*
