@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-char font[] = "Terminus:size=11";
+char font[] = "Monospace:size=9";
 int borderpx = 4;
 
 /*
