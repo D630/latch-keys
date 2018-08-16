@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char font[] = "Monospace:size=9";
+static char font[] = "-xos4-terminus-medium-r-normal-*-16-*-*-*-*-*-iso10646-*";
 static int borderpx = 4;
 
 /*
