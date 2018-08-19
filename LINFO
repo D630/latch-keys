@@ -26,7 +26,6 @@ github.com/tpope/vim-commentary|https://github.com/tpope/vim-commentary.git|loca
 github.com/tpope/vim-markdown|https://github.com/tpope/vim-markdown.git|local
 github.com/tpope/vim-pathogen|https://github.com/tpope/vim-pathogen.git|local
 github.com/tpope/vim-surround|https://github.com/tpope/vim-surround.git|local
-github.com/vain/bin-pub|https://github.com/vain/bin-pub.git|global
 github.com/vim-pandoc/vim-pandoc-syntax|https://github.com/vim-pandoc/vim-pandoc-syntax.git|local
 github.com/vim-pandoc/vim-pandoc|https://github.com/vim-pandoc/vim-pandoc.git|local
 github.com/xdanaux/moderncv|https://github.com/xdanaux/moderncv.git|local
