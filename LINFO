@@ -25,3 +25,4 @@ github.com/tpope/vim-surround|https://github.com/tpope/vim-surround.git|local
 github.com/vim-pandoc/vim-pandoc-syntax|https://github.com/vim-pandoc/vim-pandoc-syntax.git|local
 github.com/vim-pandoc/vim-pandoc|https://github.com/vim-pandoc/vim-pandoc.git|local
 github.com/xdanaux/moderncv|https://github.com/xdanaux/moderncv.git|local
+salsa.debian.org/kolter/msmtp|https://salsa.debian.org/kolter/msmtp.git|null
