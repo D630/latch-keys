@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/bin/sh
 
 # Pre-build environment configuration and checks
 src_env ()
@@ -9,7 +9,8 @@ src_env ()
 # Prepare stow package and do any necessary patching or fixes
 src_prepare ()
 {
-        return 0
+        mkdir -p -- "${XDG_VAR_HOME}/mail/queue"
+        chmod 0700 -- "${XDG_VAR_HOME}/mail/queue"
 }
 
 # Configure and build the stow package
@@ -27,7 +28,26 @@ src_check ()
 # Install the stow package
 src_install ()
 {
-        return 0
+        command install -D -m 755 scripts/msmtpq/msmtp-queue "${DESTDIR}/${XDG_BIN_HOME#$HOME}/msmtp-queue"
+        command install -D -m 755 scripts/msmtpq/msmtpq "${DESTDIR}/${XDG_BIN_HOME#$HOME}/msmtpq"
+
+        cd -- "${DESTDIR}/${XDG_BIN_HOME#$HOME}"
+
+        ed -s msmtpq <<S
+/^Q=.*$/s/.*/Q=\$Q/
+/^LOG=.*$/s/.*/LOG=\$LOG/
+/^EMAIL_CONN_TEST=[xpPns]$/s/.*/EMAIL_CONN_TEST=\$EMAIL_CONN_TEST/
+w
+S
+
+        ed -s msmtp-queue <<S
+2i
+export Q=\${XDG_VAR_HOME}/mail/queue
+export LOG=\${XDG_VAR_HOME}/log/msmtp-queue.log
+export EMAIL_CONN_TEST=P
+.
+w
+S
 }
 
 # Called before stow package is stowed
@@ -55,4 +75,4 @@ unstow_post ()
         return 0
 }
 
-# vim: set ft=sh ts=8 sw=8 tw=0 et :
+# vim: set ft=sh :
