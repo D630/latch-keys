@@ -16,7 +16,7 @@ static int borderpx = 4;
  * 4: value of shell in /etc/passwd
  * 5: value of shell in config.h
  */
-static char shell[] = "/bin/bash";
+static char *shell = "/bin/bash";
 char *utmp = NULL;
 char *stty_args = "stty raw pass8 nl -echo -iexten -cstopb 38400";
 
@@ -30,9 +30,9 @@ static float chscale = 1.0;
 /*
  * word delimiter string
  *
- * More advanced example: " `'\"()[]{}"
+ * More advanced example: L" `'\"()[]{}"
  */
-char *worddelimiters = L" `'\"()[]{}";
+wchar_t *worddelimiters = L" `'\"()[]{}";
 
 /* selection timeouts (in milliseconds) */
 static unsigned int doubleclicktimeout = 300;
@@ -144,7 +144,7 @@ static unsigned int mousebg = 0;
  * Color used to display font attributes when fontconfig selected a font which
  * doesn't match the ones requested.
  */
-unsigned int defaultattr = 11;
+static unsigned int defaultattr = 11;
 
 /*
  * Internal mouse shortcuts.
