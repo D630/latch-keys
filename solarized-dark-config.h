@@ -32,7 +32,7 @@ static float chscale = 1.0;
  *
  * More advanced example: " `'\"()[]{}"
  */
-char *worddelimiters = " `'\"()[]{}";
+char *worddelimiters = L" `'\"()[]{}";
 
 /* selection timeouts (in milliseconds) */
 static unsigned int doubleclicktimeout = 300;
@@ -172,6 +172,7 @@ static Shortcut shortcuts[] = {
 	{ TERMMOD,              XK_C,           clipcopy,       {.i =  0} },
 	{ TERMMOD,              XK_V,           clippaste,      {.i =  0} },
 	{ TERMMOD,              XK_Y,           selpaste,       {.i =  0} },
+	{ ShiftMask,            XK_Insert,      selpaste,       {.i =  0} },
 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
 };
 
@@ -435,7 +436,6 @@ static Key key[] = {
 	{ XK_F34,           XK_NO_MOD,      "\033[21;5~",    0,    0},
 	{ XK_F35,           XK_NO_MOD,      "\033[23;5~",    0,    0},
 };
-
 /*
  * Selection types' masks.
  * Use the same masks as usual.
