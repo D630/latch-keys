@@ -15,7 +15,7 @@ github.com/junegunn/fzf.wiki|https://github.com/junegunn/fzf.wiki.git|null
 github.com/jwiegley/use-package|https://github.com/jwiegley/use-package.git|local
 github.com/majn/telegram-purple|https://github.com/majn/telegram-purple.git|system
 github.com/nelstrom/vim-markdown-folding|https://github.com/nelstrom/vim-markdown-folding.git|local
-github.com/pyenv/pyenv|https://github.com/pyenv/pyenv.git|null
+github.com/pyenv/pyenv|https://github.com/pyenv/pyenv.git|local
 github.com/rupa/z|https://github.com/rupa/z.git|local
 github.com/seebi/dircolors-solarized|https://github.com/seebi/dircolors-solarized.git|local
 github.com/tpope/vim-commentary|https://github.com/tpope/vim-commentary.git|local
