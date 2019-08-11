@@ -27,7 +27,8 @@ src_check ()
 # Install the stow package
 src_install ()
 {
-        return 0
+        mkdir -p -- "${DESTDIR}/${XDG_OPT_HOME#$HOME}/python/lib/pyenv"
+        cp -Rfp -- . "${DESTDIR}/${XDG_OPT_HOME#$HOME}/python/lib/pyenv"
 }
 
 # Called before stow package is stowed
