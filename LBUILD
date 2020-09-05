@@ -23,6 +23,8 @@ src_build ()
                 make
                 mv -f -- st "st-${_c}"
         done
+
+        tic -sx st.info
 }
 
 # Run pre-install test scripts
